@@ -1,0 +1,19 @@
+Package: terrascoper
+Title: Download Earth Observation Data from Terrascope STAC API
+Version: 0.1.0
+Authors@R: person("Stefan", "Weingartner", role = c("aut", "cre"))
+Description: Download Earth observation products (Sentinel-5P, Sentinel-2,
+    Sentinel-1, PROBA-V, etc.) from the Terrascope STAC API. Supports
+    arbitrary bounding boxes, date ranges, and collections. Handles NetCDF,
+    GeoTIFF, and other file formats. Authentication via environment variables.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Imports:
+    rstac,
+    httr,
+    data.table
+Suggests:
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
