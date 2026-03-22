@@ -1,7 +1,7 @@
 Package: terrascoper
 Title: Download Earth Observation Data from Terrascope STAC API
 Version: 0.1.0
-Authors@R: person("Stefan", "Weingartner", role = c("aut", "cre"))
+Authors@R: person("Stefan", "Weingartner", email = "stefjow@proton.me", role = c("aut", "cre"))
 Description: Download Earth observation products (Sentinel-5P, Sentinel-2,
     Sentinel-1, PROBA-V, etc.) from the Terrascope STAC API. Supports
     arbitrary bounding boxes, date ranges, and collections. Handles NetCDF,
